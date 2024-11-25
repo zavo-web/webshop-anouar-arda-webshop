@@ -5,24 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product</title>
   <link rel="stylesheet" href="Product.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <header>
     <h1>Tempora</h1>
-    <nav class="navbar">
-      <ul>
-        <li><a href=#HOME>HOME</a></li>
-        <li><a href=#Product>PRODUCT</a></li>
-        <li><a href=#CONTACT>CONTACT</a></li>
-        <li><a href=#about-us>ABOUT US</a></li>
-      </ul>
-     </nav>
-    <form action="/search" method="get">
-      <input type="text" name="query" placeholder="Zoek iets...">
-      <button type="submit">Zoeken</button>
-    </form>
-  </header>
-  <img src="promo.jpg" alt="promo">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#HOME">HOME</a></li>
+          <li><a href="#Product">PRODUCT</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+        </ul>
+      </nav>
+      <form class="navbar-search">
+        <input type="text" name="query" placeholder="Zoek iets...">
+        <button type="submit">Zoeken</button>
+      </form>
+    </div>
+    <i class="fas fa-cart-plus"></i>
+  </header>  
+  <img class="promo" src="promo.jpg" alt="promo">
   <img src="rolex_png.png" alt="Rolex submarine date" width="100">
 </body>
 </html>

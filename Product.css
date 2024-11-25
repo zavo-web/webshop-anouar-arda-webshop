@@ -101,12 +101,18 @@
 }
 
 .promo {
-  align-items: center;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5%;
+}
+
+.rolex_png {
+  display: block;
+  margin: 10px auto;
 }
 
 .navbar-search .mirrored-icon {
   font-size: 20px;
   color: #333;
   cursor: pointer;
-  transform: scaleX(-1);
 }

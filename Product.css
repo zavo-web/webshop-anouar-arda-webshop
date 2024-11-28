@@ -26,7 +26,6 @@
 
 .navbar ul li {
   position: relative;
-  position: sticky;
 }
 
 .navbar ul li a {
@@ -34,7 +33,6 @@
   font-size: 18px;
   color: #2d2d2d;
   transition: 0.3s ease;
-  position: sticky;
 }
 
 .navbar ul li a::before {
@@ -46,10 +44,6 @@
   bottom: -5px;
   background-color: #000000;
   transition: 0.3s ease;
-}
-
-.navbar ul li a:hover::before {
-  color: #10a37f;
 }
 
 .navbar ul li a:hover::before {
@@ -89,30 +83,26 @@
   cursor: pointer;
 }
 
-.header h1 {
-  margin-bottom: 15px;
+.producten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 85px;
+.producten img {
+  width: 220px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.producten img:hover {
+  transform: scale(1.1);
 }
 
 .promo {
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
   border-radius: 5%;
-}
-
-.rolex_png {
-  display: block;
-  margin: 10px auto;
-}
-
-.navbar-search .mirrored-icon {
-  font-size: 20px;
-  color: #333;
-  cursor: pointer;
 }

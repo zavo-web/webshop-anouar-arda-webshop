@@ -254,3 +254,61 @@ body {
 .title {
   color: white;
 }
+
+footer {
+  background-color: var(--background-color);
+  padding: 20px 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+footer:hover {
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+footer ul li {
+  position: relative;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--primary-color);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background-color: var(--highlight-color);
+  transition: width 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: var(--highlight-color);
+  transform: scale(1.1);
+}
+
+footer ul li a:hover::before {
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 10px;
+}

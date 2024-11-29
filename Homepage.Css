@@ -296,12 +296,11 @@ img {
 
 .producten {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .product-item {
   width: 220px;
   height: 300px;

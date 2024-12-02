@@ -167,14 +167,6 @@ top: 0;
   color: white;
 }
 
-.wrapper{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
 .Image{
   width: 500px;
   position: relative;
@@ -182,9 +174,12 @@ top: 0;
 }
 
 img{
-  width: 100%;
+  width: 500px;
+  height: 300px;
   display: block;
   margin: auto;
+object-fit: cover;
+
 }
 
 .text{
@@ -222,27 +217,6 @@ img{
 
 }
 
-
-.wrapper2{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.Image2{
-  width: 500px;
-  position: relative;
-
-}
-
-img {
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-
 .text2{
   width: 100%;
   height: 100%;
@@ -264,7 +238,7 @@ img {
 
 .text2 h1{
   font-size: 45px;
-  color: #d6bb96;
+  color: #888152;
   margin-bottom: 15px;
 }
 
@@ -278,12 +252,81 @@ img {
 
 }
 
-.categorie{
+.text3{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
   display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
 
+}
+
+.text3:hover{
+  opacity: 1;
+}
+
+.text3 h1{
+  font-size: 45px;
+  color: #515d60;
+  margin-bottom: 15px;
+}
+
+.text3 > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.text3:hover > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+
+}
+
+.text4{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+
+}
+
+.text4:hover{
+  opacity: 1;
+}
+
+.text4 h1{
+  font-size: 45px;
+  color: #71ab67;
+  margin-bottom: 15px;
+}
+
+.text4 > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.text4:hover > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+
+}
+
+.categorie{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 
 }
 
@@ -393,4 +436,8 @@ footer p {
   color: var(--primary-color);
   text-align: center;
   margin-top: 10px;
+}
+
+.Middle-title{
+  text-align: center;
 }

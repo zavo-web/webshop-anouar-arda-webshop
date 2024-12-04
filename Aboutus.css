@@ -111,11 +111,67 @@ top: 0;
 
   /* ABOUTUS TEXT */
 
-  .about-text{
-    text-align: center;
+  .about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color:azure;
   }
 
+  .about img{
+    height: auto;
+    width: 200px;
+  }
 
+  .about-text{
+    width: 550px;
+    text-align: center;
+  }
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-text h1{
+    color: #292727;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5{
+    color: #292727;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  .about-text p{
+    color: #292727;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+  }
+
+  .main a{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #0e0e0e;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+
+  .main a:hover{
+    background-color: #918f8f;
+    color: #000000;
+  }
 
 
   /* Footer */

@@ -4,6 +4,7 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* NAVBAR */
 
 .navbar{
     background-color:transparent;
@@ -105,6 +106,8 @@ top: 0;
   }
 
   
+/* VIDEO */
+
   .background{
     width: 100%;
     height: 100vh;
@@ -162,6 +165,9 @@ top: 0;
       height: 100%;
     }
   }
+
+
+/* CATEGORIE */
 
 .title{
   color: white;
@@ -337,6 +343,9 @@ flex-wrap: wrap;
   
 }
 
+
+/* Recomandation-(Producten) */
+
 .producten {
   display: flex;
   justify-content: left;
@@ -379,6 +388,9 @@ flex-wrap: wrap;
   color: var(--primary-color);
   margin-bottom: 5px;
 }
+
+
+/* FOOTER */
 
 footer {
   background-color: var(--background-color);
